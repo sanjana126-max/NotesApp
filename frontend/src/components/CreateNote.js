@@ -20,7 +20,7 @@ function CreateNote() {
     try {
 
       await axios.post(
-        'http://localhost:5000/api/notes/create',
+        'https://notes-backend-wld3.onrender.com',
         formData
       )
 
